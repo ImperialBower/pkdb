@@ -1,4 +1,5 @@
 FROM postgres:15.3
-LABEL authors="folkengine"
+MAINTAINER gaoler@electronicpanopticon.com
+LABEL authors="Christoph"
 
 ENTRYPOINT ["top", "-b"]
