@@ -1,5 +1,6 @@
-FROM postgres:15.3
+FROM mysql:latest
 MAINTAINER gaoler@electronicpanopticon.com
 LABEL authors="Christoph"
 
-ENTRYPOINT ["top", "-b"]
+ENV MYSQL_DATABASE marvel
+COPY ./scripts/ /docker-entrypoint-initdb.d/
