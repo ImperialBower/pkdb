@@ -1,6 +1,6 @@
-FROM mysql:latest
-MAINTAINER gaoler@electronicpanopticon.com
+FROM postgres:latest
+LABEL maintainer="gaoler@electronicpanopticon.com"
 LABEL authors="Christoph"
 
-ENV MYSQL_DATABASE marvel
+ENV POSTGRES_DB=marvel
 COPY ./scripts/ /docker-entrypoint-initdb.d/
