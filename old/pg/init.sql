@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS marvel;
+CREATE DATABASE marvel;
 \c marvel;
 
 CREATE TABLE IF NOT EXISTS superheroes (
