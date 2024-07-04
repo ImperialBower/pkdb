@@ -1,3 +1,5 @@
+USE `marvel`;
+GO
 INSERT INTO `superheroes` (`name`,`color`,`noOfMovies`)
 VALUES
     ("Iron Man", "Gold", 11),
