@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+docker run --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword -d -p 5431:5431 postgres
+
+# This command does the following:
+# --name my-postgres: Names the container for easier reference.
+# -e POSTGRES_PASSWORD=mysecretpassword: Sets the database password to mysecretpassword. Replace mysecretpassword with a secure password of your choice.
+# -d: Runs the container in detached mode.
+# -p 5431:5431: Maps port 5431 on the host to port 5431 in the container, allowing you to connect to the database.
+# postgres: Specifies the official PostgreSQL image from Docker Hub.
+# After running this command, your PostgreSQL database will be accessible on localhost:5431 with the password you specified.
+
+
+# docker exec -it my-postgres bash

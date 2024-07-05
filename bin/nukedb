@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+docker stop marvelDB
+docker rm marvelDB
+docker ps -a
+
