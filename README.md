@@ -8,9 +8,9 @@ Customized PostgreSQL Docker Container for Holding Calculations
 * https://www.datacamp.com/tutorial/set-up-and-configure-mysql-in-docker
 
 ```txt
-10039  domysql
-10040  nukedb
+domysql
+nukedb
 
-mysql --host=127.0.0.1 --port=3306 -u root -p
+mysql --host=127.0.0.1 --port=3306 -u root -p 12Marvel
 ```
 
