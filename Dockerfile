@@ -1,4 +1,4 @@
-FROM mysql:latest
+FROM mysql:9
 LABEL maintainer="gaoler@electronicpanopticon.com"
 LABEL authors="Christoph"
 
