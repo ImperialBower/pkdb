@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+mysqldump --host=127.0.0.1 --port=3306 -u root -p pk
