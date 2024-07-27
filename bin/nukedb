@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-docker stop marvelDB
-docker rm marvelDB
+docker stop pkdb
+docker rm pkdb
+docker volume rm pkdb-data
+docker rmi pkdb:1.0
 docker ps -a
 

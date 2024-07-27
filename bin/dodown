@@ -3,4 +3,5 @@
 docker stop pkdb
 docker rm pkdb
 docker volume rm pkdb-data
+docker system prune
 docker ps -a
